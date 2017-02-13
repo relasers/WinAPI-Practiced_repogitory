@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Precompiled">
+      <UniqueIdentifier>{26be8d85-4711-4542-8174-dd20d1df13ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{747e48e1-b45c-48cc-bd3f-cddc272d0e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{0ed6a95b-6a0f-4345-83c2-6a6f73804bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{22e5b9c2-6242-4d4d-97bf-263afe9709df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\MainScene">
+      <UniqueIdentifier>{1821c01e-f6ff-45a8-81cf-eb03f7565610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{613dfe6f-25cd-4258-8ea3-5ea0482b8d46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Player">
+      <UniqueIdentifier>{1e86a8f4-218a-4ca1-b94d-857a2dde37eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Enemy">
+      <UniqueIdentifier>{7d5632ff-3600-446f-b8fb-4691c9486511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Boss">
+      <UniqueIdentifier>{dbab015c-b830-4b2e-9c11-c1658e590b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Particle">
+      <UniqueIdentifier>{edcaee17-ca95-411a-beff-08931b711fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{df5db4f8-5267-47d5-856b-6537e742244e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Surface">
+      <UniqueIdentifier>{3872f4a5-e90e-4d30-a490-34fc2037c93f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Cube">
+      <UniqueIdentifier>{2b6d9529-f941-4288-8209-6afe6340f90c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{8646f8fe-997d-424f-987c-51f508cfab47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundManager">
+      <UniqueIdentifier>{253bbd44-4aa3-4cca-b1d5-e10f8c87c4c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Bullet">
+      <UniqueIdentifier>{99cff990-af97-45dc-a054-52218ce4e6e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light">
+      <UniqueIdentifier>{ee90f55b-c5f9-4f51-b274-921a476a0f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\LogoScene">
+      <UniqueIdentifier>{3f5ca9e6-7c2d-4a54-b594-6c59db83d9da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\TitleScene">
+      <UniqueIdentifier>{55cfa83b-49fb-4c5a-a1b0-c467c8d5f668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameOverScene">
+      <UniqueIdentifier>{c0211f76-b9f0-4ab2-b986-929d5a5b108f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameClearScene">
+      <UniqueIdentifier>{02049fce-22d9-454b-9448-93a665895a9a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Precompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera_OpenGL.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Scene\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Objects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="MyObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface.cpp">
+      <Filter>Objects\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Objects\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLib.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="M_CombatDrone.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="M_HexTechTower.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="M_Player.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="M_Sky.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Objects\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Launcher.cpp">
+      <Filter>Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnergyBolt.cpp">
+      <Filter>Objects\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Objects\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Objects\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BossLauncher.cpp">
+      <Filter>Objects\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoScene.cpp">
+      <Filter>Scene\LogoScene</Filter>
+    </ClCompile>
+    <ClCompile Include="maincpp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScene.cpp">
+      <Filter>Scene\GameOverScene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Scene\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClearScene.cpp">
+      <Filter>Scene\GameClearScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataStructure3D.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2f.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera_OpenGL.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>Scene\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Objects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MyObject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>Objects\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Objects\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLib.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="M_CombatDrone.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="M_HexTechTower.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="M_Player.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="M_Sky.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="RanderProp.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Objects\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Launcher.h">
+      <Filter>Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnergyBolt.h">
+      <Filter>Objects\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Objects\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Objects\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BossLauncher.h">
+      <Filter>Objects\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoScene.h">
+      <Filter>Scene\LogoScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScene.h">
+      <Filter>Scene\GameOverScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Scene\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClearScene.h">
+      <Filter>Scene\GameClearScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

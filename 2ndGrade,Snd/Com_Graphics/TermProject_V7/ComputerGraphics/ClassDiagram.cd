@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CVertex2D&lt;Ty&gt;" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAEAAAAAAAAAAAAAAQAAAAAAAACAAAhgAAAAQAA=</HashCode>
+      <FileName>DataStructure3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CVertex3D&lt;Ty&gt;" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAEAAAAAAQAAAAAAAACAAAhgAQAAQAA=</HashCode>
+      <FileName>DataStructure3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAngle3D&lt;Ty&gt;" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABQAAAAAAAAQAAAAgAAAAAEAAAAAgAAAAAAA=</HashCode>
+      <FileName>DataStructure3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CScale3D&lt;Ty&gt;" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACBAAAAABgAQAAAAA=</HashCode>
+      <FileName>DataStructure3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCamera" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAEAIAAAAAAAAAAIAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>DataStructure3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSurfaceFormular&lt;Ty&gt;" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAIAABAEAAAAAAAAAA=</HashCode>
+      <FileName>DataStructure3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector2D&lt;Ty&gt;" Collapsed="true">
+    <Position X="17.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAEAAAAUBAAAAAAAAAAABgAAAAQAA=</HashCode>
+      <FileName>Vec2f.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCamera_OpenGL" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CASAAEAYgSYAFAIgBACgAAAQAEBAQQABAACBIUAAAAo=</HashCode>
+      <FileName>Camera_OpenGL.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFramework" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FEQBAACCAigEC4AIKQECKAIBAqQIAAQMgAAARIAAAgA=</HashCode>
+      <FileName>Framework.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CScene" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAQAiCQAACAAAACAAEAAgBQAAAAAAAAFAAAAAg=</HashCode>
+      <FileName>Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMainScene" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUmASCCEiAQlACACAEOICERAiQgAAACAAgABAQAgAA=</HashCode>
+      <FileName>MainScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLogoScene" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARSACCAAiAQAACACAACAAEAAAAAAAAAAAAABAAAAAQ=</HashCode>
+      <FileName>LogoScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTitleScene" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCACCAAiAQAACACAACAAEAAAAAAAAQAAAABAAAAAQ=</HashCode>
+      <FileName>TitleScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameOverScene" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCACCAAiAQAACACAASAAUAAAAAAAAQAAAABAAAAAQ=</HashCode>
+      <FileName>GameOverScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameClearScene" Collapsed="true">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQCACCAAiAQAACACAACAAEAAAAAACAQAAAABAAAAAQ=</HashCode>
+      <FileName>GameClearScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMyObject" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCEAAAAAAAGAAAAAACAAAAMAAAAAAAAAEEgIAAAAA=</HashCode>
+      <FileName>MyObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlayer" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AqSAAAAAAASABAAAggMCADAAUEVgAkAAcAAEAEADBAA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEnemy" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgSAAAAAAAQAAAAAggICCAAAEBhAAwAAIAAEAAADAAQ=</HashCode>
+      <FileName>Enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLauncher" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAgAAQQAAAAAAAAAAAAEA0AABAAAAAYAAAA=</HashCode>
+      <FileName>Launcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBoss" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgSAAICAAAwAAAAEggICAAAAEglIAQEAYAAEAAQBAAA=</HashCode>
+      <FileName>Boss.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBossLauncher" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAABAABgAAAAABAAAAAAAAAAAAIAAAAAAIQAAA=</HashCode>
+      <FileName>BossLauncher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CParticle" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAcAEAAAAAEAGQAAgAAAAAACAAAEAgAAAAAAAAICAAA=</HashCode>
+      <FileName>Particle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSurface" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQCAAAAAACAEAAACAAAkAAABAAAAAAAAQkAAAAA=</HashCode>
+      <FileName>Surface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCube" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJQACADAAAIAMCAEAAIyAAAAMAAEAEAAAAEEAAAAAAg=</HashCode>
+      <FileName>Cube.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cbullet" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAAAQEAACAgAgCAAQAAIAAggAAIAAAAAoAAAA=</HashCode>
+      <FileName>Bullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEnergyBolt" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQEAACAgAACAAQAAAAAAgAAIAgAAA4EAAA=</HashCode>
+      <FileName>EnergyBolt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C_M_CombatDrone" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAAQAAAQAAAAAAAAgAAAAGABAAAAAAAEIAAQA=</HashCode>
+      <FileName>M_CombatDrone.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C_M_HexTechTower" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAAAAIAQABAAAAAAAAAAACAFAAAAAAQAAAAQA=</HashCode>
+      <FileName>M_HexTechTower.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C_M_Player" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAAAAAAAAQCAAAAAAAgAAAAGAJAAAAAAAAIAAwA=</HashCode>
+      <FileName>M_Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CM_Sky" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAABAEYAQAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>M_Sky.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTextureLibraray" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAgAAAIAAAAAAACAAAAIAAACIACgABAA=</HashCode>
+      <FileName>TextureLib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSoundManager" Collapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>g0QGAAAYIACMAQUUEACAAAAAACJAACAAAEEIAEAAIAA=</HashCode>
+      <FileName>SoundManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLight" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAgAAAACACAAhAAQAIIAAggAAAAAFAIAAEAAgAAAIQU=</HashCode>
+      <FileName>Light.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="myRECT&lt;T&gt;" Collapsed="true">
+    <Position X="15.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAwAAAACAAQAAAAAAAAA=</HashCode>
+      <FileName>DataStructure3D.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="myCOLORREF&lt;T&gt;" Collapsed="true">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAQAAAAAgA=</HashCode>
+      <FileName>DataStructure3D.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Point2D&lt;Ty&gt;" Collapsed="true">
+    <Position X="17.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>Vector3D.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vector3D&lt;Ty&gt;" Collapsed="true">
+    <Position X="19.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAQAAAAEAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Vector3D.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LightParam" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAAAAAAQAAAAAAAAAgAAABAAAAAAAgAABAAACAAAAA=</HashCode>
+      <FileName>Light.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="VertexPos" Collapsed="true">
+    <Position X="14" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgIAAAAQMEAAAAAAAAAAAAAAIAABAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructure3D.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CubePos" Collapsed="true">
+    <Position X="12.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAEAA=</HashCode>
+      <FileName>DataStructure3D.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
